@@ -44,20 +44,25 @@ ul {
 
 /*------------ HEADER---------------- */
 
+.header-border {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px
     border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-container {
     display: flex;
+    align-items: center:
 }
 
 .menu-nav-container {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contacts-container {
@@ -182,6 +187,7 @@ button:hover, button:focus {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .features-container {
@@ -301,6 +307,7 @@ button:hover, button:focus {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-products-type {
@@ -326,6 +333,8 @@ button:hover, button:focus {
     line-height: 1.17;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
