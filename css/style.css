@@ -80,6 +80,8 @@ ul {
     line-height: 1.17;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-part {
@@ -97,6 +99,7 @@ ul {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .menu-nav:hover, .menu-nav:focus {
@@ -176,7 +179,7 @@ button:hover, button:focus {
 }
 
 
-.features {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -206,6 +209,7 @@ button:hover, button:focus {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-list-text {
