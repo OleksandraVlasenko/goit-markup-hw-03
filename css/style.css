@@ -50,6 +50,7 @@ ul {
 
 .header-container {
     display: flex;
+    align-items: center;
     padding: 0 15px
     border-bottom: 1px solid #e7e9fc;
 }
@@ -81,7 +82,6 @@ ul {
     color: #4d5ae5;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .logo-part {
@@ -328,6 +328,10 @@ button:hover, button:focus {
     padding: 100px 0;
 }
 
+.logo-footer {
+    margin-bottom: 16px;
+}
+
 .logo-lower {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -337,7 +341,6 @@ button:hover, button:focus {
     text-transform: uppercase;
     color: #f4f4fd;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-text {
